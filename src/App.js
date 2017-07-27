@@ -8,8 +8,10 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Navbar />
-                <Content />
+                <section className="hero is-fullheight is-primary">
+                    <Navbar />
+                    <Content />
+                </section>
                 <Footer />
             </div>
         );

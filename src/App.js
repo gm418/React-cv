@@ -8,7 +8,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <section className="hero is-fullheight is-primary">
+                <section className="hero is-fullheight is-success">
                     <Navbar />
                     <Content />
                 </section>

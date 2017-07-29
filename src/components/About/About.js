@@ -11,7 +11,7 @@ class About extends Component {
             <div className="hero-body">
               <div className="container">
                 <div className="columns">
-                  <div className="column is-three-quarters">
+                  <article className="column is-three-quarters">
                     <h1 className="title">
                       { salute }
                     </h1>
@@ -21,7 +21,7 @@ class About extends Component {
                     <p>
                       { resume }
                     </p>
-                  </div>
+                  </article>
                     <div className="column">
                       <figure className="image is-256x256">
                         <img src="http://bulma.io/images/placeholders/256x256.png"></img>

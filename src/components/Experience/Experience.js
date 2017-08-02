@@ -35,7 +35,7 @@ class Experience extends Component {
                         </li>
 
                         <li className= "timeline-item">
-                          <div class="timeline-info">
+                          <div className="timeline-info">
                             <span>March 23, 2016</span>
                           </div>
                           <div className="timeline-marker"></div>
@@ -47,7 +47,7 @@ class Experience extends Component {
                         </li>
 
                         <li className= "timeline-item">
-                          <div class="timeline-info">
+                          <div className="timeline-info">
                             <span>April 02, 2016</span>
                           </div>
                           <div className="timeline-marker"></div>
@@ -59,7 +59,7 @@ class Experience extends Component {
                         </li>
 
                         <li className= "timeline-item">
-                          <div class="timeline-info">
+                          <div className="timeline-info">
                             <span>April 28, 2016</span>
                           </div>
                           <div className="timeline-marker"></div>

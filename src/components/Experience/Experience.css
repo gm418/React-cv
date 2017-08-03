@@ -60,5 +60,5 @@ h2, h3 {
         left: 6px;
         display: block;
         position: absolute; }
-  .timeline .timeline-item:last-child .timeline-marker:after {
+  .timeline .timeline .timeline-item:last-child .timeline-marker:after {
     display: none; }

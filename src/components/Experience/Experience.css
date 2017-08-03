@@ -40,3 +40,25 @@ h2, h3 {
       bottom: 0;
       left: 0;
       width: 15px; }
+      .timeline .timeline-item .timeline-marker:before {
+        content: '';
+        background: #FF6B6B;
+        border: 3px solid transparent;
+        border-radius: 100%;
+        display: block;
+        height: 15px;
+        width: 15px;
+        top: 4px;
+        left: 0;
+        position: absolute; }
+      .timeline .timeline-item .timeline-marker:after {
+        content: '';
+        width: 3px;
+        background: #ccd5db;
+        top: 24px;
+        bottom: 0;
+        left: 6px;
+        display: block;
+        position: absolute; }
+  .timeline .timeline-item:last-child .timeline-marker:after {
+    display: none; }

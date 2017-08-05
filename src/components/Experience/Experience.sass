@@ -63,7 +63,26 @@ h2, h3
                 display: block
                 position: absolute
 
-.timeline-centered
+@mixin mq-tablet
+    @media (min-width: 768px)
+        .timeline
+            display: table
+        .timeline-item
+            display: table-row
+            padding: 0
+            .timeline-info, .timeline-marker, .timeline-content
+                display: table-cell
+                vertical-align: top
+            .timeline-marker
+                position: relative
+            .timeline-content
+                padding-left: 30px
+            .timeline-info
+                padding-right: 30px
+            .timeline-title
+                position: relative
+
+@mixin mq-computer
     @media (min-width: 992px)
         .timeline-item, .timeline-info, .timeline-marker, .timeline-content
             display: block
@@ -98,22 +117,10 @@ h2, h3
                 margin-left: -7.5px
             .timeline-info, .timeline-content
                 width: 50%
-        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.timeline-centered
+    @include mq-tablet
+    @include mq-computer
 
 
 

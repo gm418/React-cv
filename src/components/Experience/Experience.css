@@ -61,6 +61,24 @@ h2, h3 {
         display: block;
         position: absolute; }
 
+@media (min-width: 768px) {
+  .timeline-centered .timeline {
+    display: table; }
+  .timeline-centered .timeline-item {
+    display: table-row;
+    padding: 0; }
+    .timeline-centered .timeline-item .timeline-info, .timeline-centered .timeline-item .timeline-marker, .timeline-centered .timeline-item .timeline-content {
+      display: table-cell;
+      vertical-align: top; }
+    .timeline-centered .timeline-item .timeline-marker {
+      position: relative; }
+    .timeline-centered .timeline-item .timeline-content {
+      padding-left: 30px; }
+    .timeline-centered .timeline-item .timeline-info {
+      padding-right: 30px; }
+    .timeline-centered .timeline-item .timeline-title {
+      position: relative; } }
+
 @media (min-width: 992px) {
   .timeline-centered .timeline-item, .timeline-centered .timeline-info, .timeline-centered .timeline-marker, .timeline-centered .timeline-content {
     display: block;

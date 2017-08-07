@@ -13,8 +13,8 @@ class Experience extends Component {
                 <p>{ shortResume }</p>
               </div>
             </div>
-            
-            
+
+
               <div className="container">
                 <div className="notification">
                   <div className="columns is-mobile">
@@ -70,13 +70,37 @@ class Experience extends Component {
                           </div>
                         </li>
 
+                        <li className= "timeline-item">
+                          <div className="timeline-info">
+                            <span>June 28, 2016</span>
+                          </div>
+                          <div className="timeline-marker"></div>
+                          <div className="timeline-content">
+                            <h3 className="timeline-title">Event Title</h3>
+                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                              eu pede mollis pretium. Pellentesque ut neque.</p>
+                          </div>
+                        </li>
+
+                        <li className= "timeline-item">
+                          <div className="timeline-info">
+                            <span>July 28, 2016</span>
+                          </div>
+                          <div className="timeline-marker"></div>
+                          <div className="timeline-content">
+                            <h3 className="timeline-title">Event Title</h3>
+                            <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                              eu pede mollis pretium. Pellentesque ut neque.</p>
+                          </div>
+                        </li>
+
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              
-            
+
+
           </section>
     );
   }

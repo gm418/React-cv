@@ -1,0 +1,30 @@
+$sqrt3 : 1.7321
+$hexaWidth: 70px
+$halfHexaWidth: $hexaWidth/2
+$hexaHeight: $hexaWidth/$sqrt3
+$triangleHeight: $hexaHeight/2
+
+.hexagon
+  position: relative
+  background-color: purple
+  width: $hexaWidth
+  height: $hexaHeight
+  margin: $triangleHeight 0
+  text-align: center
+
+  &:before, &:after
+    content: ''
+    border-left: $halfHexaWidth solid transparent
+    border-right: $halfHexaWidth solid transparent
+    width: 0
+
+  &:before
+    position: absolute
+    margin-left: -9px
+    bottom: 100%
+    border-bottom: $triangleHeight solid purple
+
+  &:after
+    position: relative
+    top: 82%
+    border-top: $triangleHeight solid purple

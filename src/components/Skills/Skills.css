@@ -1,0 +1,21 @@
+.hexagon {
+  position: relative;
+  background-color: purple;
+  width: 70px;
+  height: 40.41337px;
+  margin: 20.20669px 0;
+  text-align: center; }
+  .hexagon:before, .hexagon:after {
+    content: '';
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    width: 0; }
+  .hexagon:before {
+    position: absolute;
+    margin-left: -9px;
+    bottom: 100%;
+    border-bottom: 20.20669px solid purple; }
+  .hexagon:after {
+    position: relative;
+    top: 82%;
+    border-top: 20.20669px solid purple; }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Skills.css'
 
 class Skills extends Component {
 
@@ -16,9 +17,9 @@ class Skills extends Component {
 
                 <div className="column is-half">
                   <h3>Devlopment</h3>
-                  <p className="notification is-info">
-                    <code className="html">is-half</code>
-                  </p>
+                  <div className="notification is-info">
+                    <div className="hexagon">HTML5</div>
+                  </div>
                 </div>
 
                 <div className="column">

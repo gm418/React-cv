@@ -1,30 +1,81 @@
-$sqrt3 : 1.7321
-$hexaWidth: 70px
-$halfHexaWidth: $hexaWidth/2
-$hexaHeight: $hexaWidth/$sqrt3
-$triangleHeight: $hexaHeight/2
+.hexGrid
+  display: flex
+  flex-wrap: wrap
+  width: 50%
+  margin: 0 auto
+  list-style-type: none
 
-.hexagon
-  position: relative
-  background-color: purple
-  width: $hexaWidth
-  height: $hexaHeight
-  margin: $triangleHeight 0
-  text-align: center
-
-  &:before, &:after
-    content: ''
-    border-left: $halfHexaWidth solid transparent
-    border-right: $halfHexaWidth solid transparent
-    width: 0
-
-  &:before
-    position: absolute
-    margin-left: -9px
-    bottom: 100%
-    border-bottom: $triangleHeight solid purple
-
-  &:after
+  .hex
     position: relative
-    top: 82%
-    border-top: $triangleHeight solid purple
+    &:after
+      content: ''
+      display: block
+      padding-bottom: 86.602%
+
+    .hexIn
+      position: absolute
+      width: 96%
+      padding-bottom: 110.851%
+      overflow: hidden
+
+      -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+          -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+              transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+
+
+      .hexLink
+        width: 100%
+        height: 100%
+        background-color: #FFDD57
+        text-align: center
+        overflow: hidden
+        -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
+            -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
+                transform: skewY(-30deg) rotate3d(0,0,1,60deg)
+
+
+
+        h4
+          width: 100%
+          top: 35%
+          z-index: 1
+          &:after
+            content: ''
+            position: absolute
+            bottom: 0
+            left: 20%
+            width: 60%
+            text-align: center
+            border-bottom: 1px solid #fff
+
+
+    .hexIn *
+      position: absolute
+      visibility: visible
+
+
+
+@mixin mqComputer
+  @media (min-width:768px)
+    .hexGrid
+      padding-bottom: 3.4%
+
+      .hex
+        width: 33.333%
+        &:nth-child(5n+4)
+          margin-left: -16.666%
+
+
+@mixin mqMobile
+  @media (max-width: 767px)
+    .hexGrid
+      padding-bottom: 7%
+
+      .hex
+        width: 50%
+        &:nth-child(3n+3)
+          margin-left: 25%
+
+.hexResponsive
+  @include mqMobile
+  @include mqComputer

@@ -1,7 +1,8 @@
 # Personal website :rocket: :sparkles:
 
-Hello ! Thanks to be there !  
-This website is a personal project.  
+Hello ! Thanks to be there !
+
+This website is a personal project.
 I wanted to learn new skills like preprocessor and ReactJS and apply my knowledge.
 
 ## Requirements
@@ -11,16 +12,21 @@ I wanted to learn new skills like preprocessor and ReactJS and apply my knowledg
 ## Execution
 
 ### Install
+
+```bash
 git clone git@github.com:Daedalus418/React-cv.git
 cd React-cv
 npm install
-
+```
 ### Development
 
+```bash
 npm start
-
+```
 ### Production
 
+```bash
+```
 ## What I used
 
 - [Atom](https://atom.io/)

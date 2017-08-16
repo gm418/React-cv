@@ -14,7 +14,7 @@ class Contact extends Component {
           </div>
 
           <div className="notification is-warning">
-            <form className="columns">
+            <form className="columns" action="https://formspree.io/morin.gaelle@gmail.com" method="POST">
 
               <div className="column is-half is-offset-one-quarter">
                 <div className="field">
@@ -27,7 +27,7 @@ class Contact extends Component {
                 <div className="field">
                   <label className="label" for="email">Email</label>
                   <div className="control has-icons-right">
-                    <input className="input is-danger" type="text" name="email" placeholder=""></input>
+                    <input className="input is-danger" type="text" name="_replyto" placeholder=""></input>
                     <span className="icon is-small is-right">
                       <i className="fa fa-warning"></i>
                     </span>
@@ -38,7 +38,7 @@ class Contact extends Component {
                 <div className="field">
                   <label className="label" for="subject">Sujet</label>
                   <div className="control has-icons-right">
-                    <input className="input is-success" type="text" name="subject" placeholder=""></input>
+                    <input className="input is-success" type="text" name="_subject" placeholder=""></input>
                     <span className="icon is-small is-right">
                       <i className="fa fa-check"></i>
                     </span>
@@ -53,10 +53,14 @@ class Contact extends Component {
                   </div>
                 </div>
 
+                <input type="hidden" name="_language" value="fr" />
+
                 <div className="field is-grouped is-grouped-centered">
                   <div className="control">
                     <button className="button is-primary" type="submit" name="submit">
-                      <span className="icon"><i className="fa fa-paper-plane" aria-hidden="true"></i></span>
+                      <span className="icon">
+                        <i className="fa fa-paper-plane" aria-hidden="true"></i>
+                      </span>
                       <span>Go!</span>
                     </button>
                   </div>

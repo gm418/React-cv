@@ -2,6 +2,23 @@ import React, {Component} from 'react';
 import './Contact.css';
 
 class Contact extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      _replyto: '',
+      message: '',
+
+    }
+  }
+
+  handleUserInput = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    this.setState({[name]: value});
+  }
+
   render() {
 
     return (
@@ -20,14 +37,14 @@ class Contact extends Component {
                 <div className="field">
                   <label className="label" htmlFor="name">Nom</label>
                   <div className="control">
-                    <input className="input" type="text" name="name" placeholder=""></input>
+                    <input className="input" type="text" name="name" placeholder="" value={this.state.name} onChange={(event) => this.handleUserInput(event)}></input>
                   </div>
                 </div>
 
                 <div className="field">
                   <label className="label" htmlFor="email">Email</label>
                   <div className="control has-icons-right">
-                    <input className="input is-danger" type="text" name="_replyto" placeholder=""></input>
+                    <input className="input is-danger" type="text" name="_replyto" placeholder="" value={this.state._replyto} onChange={(event) => this.handleUserInput(event)}></input>
                     <span className="icon is-small is-right">
                       <i className="fa fa-warning"></i>
                     </span>
@@ -49,7 +66,7 @@ class Contact extends Component {
                 <div className="field">
                   <label className="label" htmlFor="message">Message</label>
                   <div className="control">
-                    <textarea className="textarea" name="message" placeholder=""></textarea>
+                    <textarea className="textarea" name="message" placeholder="" value={this.state.message} onChange={(event) => this.handleUserInput(event)}></textarea>
                   </div>
                 </div>
 

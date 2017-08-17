@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { FormErrors } from './FormErrors';
 import './Contact.css';
 
 class Contact extends Component {
@@ -32,6 +33,10 @@ class Contact extends Component {
           <div className="notification is-warning has-text-centered example-title">
             <h1 className="title">Contactez-moi!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in commodo purus. Etiam ac consectetur eros. Morbi ac leo non est consequat egestas.</p>
+          </div>
+
+          <div className="notification">
+            <FormErrors formErrors={this.state.formErrors} />
           </div>
 
           <div className="notification is-warning">

@@ -24,7 +24,7 @@ class About extends Component {
                   </article>
                     <div className="column">
                       <figure className="image is-256x256">
-                        <img src="http://bulma.io/images/placeholders/256x256.png"></img>
+                        <img src="http://bulma.io/images/placeholders/256x256.png" alt="me"></img>
                       </figure>
                     </div>
                 </div>

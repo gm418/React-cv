@@ -18,14 +18,14 @@ class Contact extends Component {
 
               <div className="column is-half is-offset-one-quarter">
                 <div className="field">
-                  <label className="label" for="name">Nom</label>
+                  <label className="label" htmlFor="name">Nom</label>
                   <div className="control">
                     <input className="input" type="text" name="name" placeholder=""></input>
                   </div>
                 </div>
 
                 <div className="field">
-                  <label className="label" for="email">Email</label>
+                  <label className="label" htmlFor="email">Email</label>
                   <div className="control has-icons-right">
                     <input className="input is-danger" type="text" name="_replyto" placeholder=""></input>
                     <span className="icon is-small is-right">
@@ -36,7 +36,7 @@ class Contact extends Component {
                 </div>
 
                 <div className="field">
-                  <label className="label" for="subject">Sujet</label>
+                  <label className="label" htmlFor="subject">Sujet</label>
                   <div className="control has-icons-right">
                     <input className="input is-success" type="text" name="_subject" placeholder=""></input>
                     <span className="icon is-small is-right">
@@ -47,7 +47,7 @@ class Contact extends Component {
                 </div>
 
                 <div className="field">
-                  <label className="label" for="message">Message</label>
+                  <label className="label" htmlFor="message">Message</label>
                   <div className="control">
                     <textarea className="textarea" name="message" placeholder=""></textarea>
                   </div>

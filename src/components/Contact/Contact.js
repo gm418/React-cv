@@ -9,7 +9,11 @@ class Contact extends Component {
       name: '',
       _replyto: '',
       message: '',
-
+      formErrors: {name: '', _replyto: '', message: ''},
+      nameValid: false,
+      _replytoValid: false,
+      messageValid: false,
+      formValid: false
     }
   }
 

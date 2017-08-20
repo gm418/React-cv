@@ -21,7 +21,41 @@ class Contact extends Component {
   handleUserInput = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    this.setState({[name]: value});
+    this.setState({[name]: value},
+                  () => { this.validateField(name, value) });
+  }
+
+  validateField(fieldName, value) {
+    let fieldValidationErrors = this.state.formErrors;
+    let nameValid = this.state.nameValid
+    let _replytoValid = this.state._replytoValid;
+    let messageValid = this.state.messageValid;
+
+    switch(fieldName) {
+      case 'name':
+        nameValid = value.length >= 1;
+        fieldValidationErrors.name = nameValid ? '' : 'champs vide';
+        break;
+      case '_replyto':
+        _replytoValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
+        fieldValidationErrors._replyto = _replytoValid ? '' : ' is invalid';
+        break;
+      case 'message':
+        messageValid = value.length >= 1;
+        fieldValidationErrors.message = messageValid ? '' : 'champs vide';
+        break;
+      default:
+        break;
+    }
+    this.setState({formErrors: fieldValidationErrors,
+                    nameValid: nameValid,
+                    _replytoValid: _replytoValid,
+                    messageValid: messageValid
+                  }, this.validateForm);
+  }
+
+  validateForm() {
+    this.setState({formValid: this.state.nameValid && this.state._replytoValid && this.state.messageValid});
   }
 
   render() {
@@ -83,7 +117,7 @@ class Contact extends Component {
 
                 <div className="field is-grouped is-grouped-centered">
                   <div className="control">
-                    <button className="button is-primary" type="submit" name="submit">
+                    <button className="button is-primary" type="submit" name="submit" disabled={!this.state.formValid}>
                       <span className="icon">
                         <i className="fa fa-paper-plane" aria-hidden="true"></i>
                       </span>

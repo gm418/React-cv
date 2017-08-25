@@ -40,14 +40,20 @@ class Navbar extends Component {
               A propos
             </a>
             <a className="navbar-item" href="">
+              Compétences
+            </a>
+            <a className="navbar-item" href="">
               Expériences
             </a>
             <a className="navbar-item" href="">
               Portfolio
             </a>
+            <a className="navbar-item" href="">
+              Contact
+            </a>
           </div>
         </div>
-        
+
       </nav>
     );
   }

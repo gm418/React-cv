@@ -5,6 +5,7 @@ import Content from './components/Content/Content';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
+import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -19,6 +20,7 @@ class App extends Component {
                 <About />
                 <Skills />
                 <Experience />
+                <Portfolio />
                 <Contact />
                 <Footer />
             </div>

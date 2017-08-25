@@ -11,10 +11,10 @@ class Skills extends Component {
 
           <div className="hero-body">
             <div className="container">
-              <h2 className="title">Skills</h2>
+              <h3 className="title is-3">Skills</h3>
               <div className="columns">
                 <div className="column">
-                  <h3>Devlopment</h3>
+                  <h4 className="subtitle is-5">Devlopment</h4>
                   <div className="columns is-mobile">
                     <div className="column">
                       <div className="notification is-info hexResponsive">
@@ -22,42 +22,42 @@ class Skills extends Component {
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>HTML5</h4>
+                                <p>HTML5</p>
                               </span>
                             </div>
                           </li>
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>CSS3</h4>
+                                <p>CSS3</p>
                               </span>
                             </div>
                           </li>
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>JS</h4>
+                                <p>JS</p>
                               </span>
                             </div>
                           </li>
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>AngularJS</h4>
+                                <p>AngularJS</p>
                               </span>
                             </div>
                           </li>
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>ReactJS</h4>
+                                <p>ReactJS</p>
                               </span>
                             </div>
                           </li>
                           <li className="hex">
                             <div className="hexIn">
                               <span className="hexLink">
-                                <h4>Sass</h4>
+                                <p>Sass</p>
                               </span>
                             </div>
                           </li>
@@ -68,7 +68,7 @@ class Skills extends Component {
                   </div>
                 </div>
                 <div className="column">
-                  <h3>Tools</h3>
+                  <h4 className="subtitle is-5">Tools</h4>
                   <div className="columns is-mobile">
                     <div className="column">
                       <ul className="notification is-success">

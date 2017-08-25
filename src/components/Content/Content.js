@@ -9,10 +9,10 @@ class Content extends Component {
     return (
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title">
+              <h1 className="title is-1 is-spaced">
                 { heading }
               </h1>
-              <h2 className="subtitle">
+              <h2 className="subtitle is-2">
                 { subheading }
               </h2>
             </div>

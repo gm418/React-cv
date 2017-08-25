@@ -31,11 +31,11 @@
         -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
           -webkit-transform--ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
             -webkit-transform--ms-transform-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg); }
-        .hexGrid .hex .hexIn .hexLink h4 {
+        .hexGrid .hex .hexIn .hexLink p {
           width: 100%;
           top: 35%;
           z-index: 1; }
-          .hexGrid .hex .hexIn .hexLink h4:after {
+          .hexGrid .hex .hexIn .hexLink p:after {
             content: '';
             position: absolute;
             bottom: 0;

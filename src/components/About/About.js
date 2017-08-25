@@ -12,12 +12,12 @@ class About extends Component {
               <div className="container">
                 <div className="columns">
                   <article className="column is-three-quarters">
-                    <h1 className="title">
+                    <h3 className="title is-3 is-spaced">
                       { salute }
-                    </h1>
-                    <h2 className="subtitle">
+                    </h3>
+                    <p className="subtitle">
                       { shortResume }
-                    </h2>
+                    </p>
                     <p>
                       { resume }
                     </p>

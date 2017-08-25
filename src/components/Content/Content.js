@@ -7,7 +7,7 @@ class Content extends Component {
     let subheading = 'Lorem ipsum dolor sit amet';
 
     return (
-          <div className="hero-body">
+          <div id="content" className="hero-body">
             <div className="container has-text-centered">
               <h1 className="title is-1 is-spaced">
                 { heading }

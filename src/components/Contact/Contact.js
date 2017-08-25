@@ -65,11 +65,11 @@ class Contact extends Component {
   render() {
 
     return (
-      <section className="hero is-fullheight is-blue is-bold">
+      <section id="contact" className="hero is-fullheight is-blue is-bold">
 
         <div className="container">
-          <div className="notification is-warning has-text-centered example-title">
-            <h1 className="title">Contactez-moi!</h1>
+          <div className="notification is-warning has-text-centered">
+            <h3 className="title is-3">Contactez-moi!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in commodo purus. Etiam ac consectetur eros. Morbi ac leo non est consequat egestas.</p>
           </div>
 

@@ -33,22 +33,22 @@ class Navbar extends Component {
 
         <div className={"navbar-menu " +menuActive} id="navMenuExample">
           <div className="navbar-end">
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#content">
               Accueil
             </a>
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#about">
               A propos
             </a>
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#skills">
               Compétences
             </a>
-            <a className="navbar-item" href="">
-              Expériences
+            <a className="navbar-item" href="#experience">
+              Expérience
             </a>
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#portfolio">
               Portfolio
             </a>
-            <a className="navbar-item" href="">
+            <a className="navbar-item" href="#contact">
               Contact
             </a>
           </div>

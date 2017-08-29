@@ -3,10 +3,12 @@
   flex-wrap: wrap;
   width: 50%;
   margin: 0 auto;
+  font-size: 15px;
   list-style-type: none; }
   .hexGrid .hex {
     position: relative;
-    visibility: hidden; }
+    visibility: hidden;
+    outline: 1px solid transparent; }
     .hexGrid .hex:after {
       content: '';
       display: block;
@@ -17,7 +19,8 @@
       padding-bottom: 110.851%;
       overflow: hidden;
       visibility: hidden;
-      margin: 0 35%;
+      margin: 0 2%;
+      outline: 1px solid transparent;
       -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
         -webkit-transform--ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
           -webkit-transform--ms-transform-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg); }
@@ -45,7 +48,8 @@
             border-bottom: 1px solid #fff; }
     .hexGrid .hex .hexIn * {
       position: absolute;
-      visibility: visible; }
+      visibility: visible;
+      outline: 1px solid transparent; }
 
 @media (max-width: 767px) {
   .hexResponsive .hexGrid {

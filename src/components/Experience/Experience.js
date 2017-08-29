@@ -8,7 +8,7 @@ class Experience extends Component {
     return (
       <section id="experience" className="hero is-warning is-large">
         <div className="container has-text-centered">
-          <div className="notification is-warning example-title">
+          <div className="notification is-primary example-title">
             <h3 className="title is-3">Expérience</h3>
             <p>{shortResume}</p>
           </div>

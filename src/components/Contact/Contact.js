@@ -65,7 +65,7 @@ class Contact extends Component {
   render() {
 
     return (
-      <section id="contact" className="hero is-fullheight is-blue is-bold">
+      <section id="contact" className="hero is-fullheight is-info is-bold">
 
         <div className="container">
           <div className="notification is-warning has-text-centered">

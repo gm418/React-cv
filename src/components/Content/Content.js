@@ -4,7 +4,7 @@ import './Content.css';
 class Content extends Component {
   render() {
     let heading = 'Gaëlle Morin';
-    let subheading = 'Développeuse front-end junior, je recherche un CDD/CDI.';
+    let subheading = 'Développeuse front-end junior, HIRE ME';
     let subheadDisplay = subheading.split(",").map(sub => <p> {sub} </p>)
 
     return (

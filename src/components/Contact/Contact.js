@@ -70,7 +70,7 @@ class Contact extends Component {
         <div className="container">
           <div className="notification is-warning has-text-centered">
             <h3 className="title is-3">Contactez-moi!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in commodo purus. Etiam ac consectetur eros. Morbi ac leo non est consequat egestas.</p>
+            <p>Des questions ? Envie de me recruter ? Contactez-moi.</p>
           </div>
 
           <div className="notification is-warning">

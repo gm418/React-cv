@@ -3,8 +3,9 @@ import './Content.css';
 
 class Content extends Component {
   render() {
-    let heading = 'Lorem Ipsum';
-    let subheading = 'Lorem ipsum dolor sit amet';
+    let heading = 'Gaëlle Morin';
+    let subheading = 'Développeuse front-end junior, je recherche un CDD/CDI.';
+    let subheadDisplay = subheading.split(",").map(sub => <p> {sub} </p>)
 
     return (
           <div id="content" className="hero-body">
@@ -13,7 +14,7 @@ class Content extends Component {
                 { heading }
               </h1>
               <h2 className="subtitle is-2">
-                { subheading }
+                { subheadDisplay }
               </h2>
             </div>
           </div>

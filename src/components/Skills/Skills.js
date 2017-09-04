@@ -8,12 +8,12 @@ class Skills extends Component {
     return (
       <section id="skills" className="hero is-medium is-danger is-bold">
 
-        <h3 className="title is-3">Skills</h3>
+        <h3 className="title is-3">Compétences</h3>
 
         <div className="columns">
 
           <div className="column is-half-desktop is-half-tablet">
-            <h4 className="subtitle is-5">Devlopment</h4>
+            <h4 className="subtitle is-5">Développement</h4>
             <div className="notification is-primary hexResponsive">
               <ul className="hexGrid">
                 <li className="hex">
@@ -64,28 +64,38 @@ class Skills extends Component {
           </div>
 
           <div className="column is-half-desktop is-half-tablet">
-            <h4 className="subtitle is-5">Tools</h4>
+            <h4 className="subtitle is-5">Outils</h4>
             <ul className="notification is-success">
               <li>
                 <span className="icon">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
-                </span>Git/Github</li>
+                </span>Git/Github
+              </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
-                </span>Atom</li>
+                </span>Atom
+              </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
-                </span>Command line</li>
+                </span>Command line
+              </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
-                </span>Chrome DevTools</li>
+                </span>Chrome DevTools
+              </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-angle-right" aria-hidden="true"></i>
-                </span>Scrum/Kanban</li>
+                </span>Scrum/Kanban
+              </li>
+              <li>
+                <span className="icon">
+                  <i className="fa fa-angle-right" aria-hidden="true"></i>
+                </span>Electron
+              </li>
             </ul>
           </div>
 

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
+import GaelleMorin from './GaelleMorin.jpg';
 
 class About extends Component {
   render() {
-    let salute = 'Moi, c\'est Gaëlle';
-    let shortResume = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in commodo purus. Etiam ac consectetur eros. Morbi ac leo non est consequat egestas.';
-    let resume = 'Cras finibus vehicula lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet elit nec neque luctus lacinia in dapibus urna. Vivamus a mi arcu. Vivamus et sapien orci. Praesent quam quam, placerat quis ante vel, pellentesque bibendum lorem. Ut ex lorem, ultrices vitae felis semper, bibendum malesuada arcu. Cras ut orci id arcu eleifend fermentum. In hac habitasse platea dictumst.';
 
     return (
           <section id="about" className="hero is-info is-large">
@@ -13,18 +11,18 @@ class About extends Component {
                 <div className="columns">
                   <article className="column is-three-quarters">
                     <h3 className="title is-3 is-spaced">
-                      { salute }
+                      Moi, c'est Gaëlle
                     </h3>
                     <p className="subtitle">
-                      { shortResume }
+                      Jeune développeuse web, j'ai à coeur de produire le code le plus propre et le plus simple possible.
                     </p>
                     <p>
-                      { resume }
+                      De formation biomédicale, j'ai suivi une reconversion professionnelle car mon secteur recrute de moins en moins. J'ai choisi la <a href="https://wildcodeschool.fr/">Wild Code School</a> après avoir participé à un atelier et complété un cours en ligne. Là, je me suis spécialisée en JavaScript car il est présent côté serveur et côté client et il évolue vite. Ce que j'aime dans ce métier, c'est que je suis encouragée à m'autoformer et à partager avec les autres. Par exemple, j'ai créé ce portfolio avec ReactJS, c'est finalement trop puissant pour ce que je fais mais je voulais apprendre. J'aime cette sensation de construire quelque chose, j'ai plein de domaines à explorer. Quand je ne code pas, je suis en train de lire, de cuisiner, d'apprendre le japonais ou de jouer aux jeux vidéos. Si vous voulez en savoir plus, baladez-vous sur ce portfolio ou regardez ma page Linkedin.
                     </p>
                   </article>
                     <div className="column">
                       <figure className="image is-256x256">
-                        <img src="http://bulma.io/images/placeholders/256x256.png" alt="me"></img>
+                        <img src={GaelleMorin} alt="me"></img>
                       </figure>
                     </div>
                 </div>

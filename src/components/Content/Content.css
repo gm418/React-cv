@@ -1,3 +1,15 @@
-.hero.is-success {
-  background-color: #23d160;
-  color: #fff; }
+.btn {
+  background-color: transparent;
+  border: 2px solid #f7ca18;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 2.25em;
+  padding: 0.2em 0.75em;
+  display: inline-flex; }
+  .btn:hover {
+    color: #000;
+    background-color: #f7ca18;
+    transition: all 0.3s ease; }

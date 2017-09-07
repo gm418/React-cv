@@ -7,6 +7,9 @@ class Skills extends Component {
 
     return (
       <section id="skills" className="hero is-medium is-danger is-bold">
+        <div className="hero-body">
+
+          <div className="container">
 
         <h3 className="title is-3">Compétences</h3>
 
@@ -101,6 +104,9 @@ class Skills extends Component {
 
         </div>
 
+      </div>
+
+</div>
       </section>
 
     );

@@ -3,14 +3,15 @@ import './Experience.css';
 
 class Experience extends Component {
   render() {
-    let shortResume = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in commodo purus. Etiam ac consectetur eros. Morbi ac leo non est consequat egestas.';
+    let shortResume = 'J\'ai travaillé 10 ans en tant que technicienne de laboratoire, aussi bien dans les hôpitaux qu\'en laboratoire privé ou dans l\'industrie pharmaceutique. Aujourd\'hui, je souhaite devenir une développeuse web accomplie en réalisant un maximum d\'applications.';
 
     return (
       <section id="experience" className="hero is-warning is-large">
-        <div className="container has-text-centered">
-          <div className="notification is-primary example-title">
+
+        <div className="container">
+          <div className="notification is-primary has-text-centered">
             <h3 className="title is-3">Expérience</h3>
-            <p>{shortResume}</p>
+            <p>{ shortResume }</p>
           </div>
         </div>
 
@@ -22,67 +23,34 @@ class Experience extends Component {
 
                   <li className="timeline-item">
                     <div className="timeline-info">
-                      <span>March 12, 2016</span>
+                      <span>Sept 2006 - août 2016</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
+                      <p className="title is-6">Technicienne de laboratoire</p>
+                      <p>J'étais principalement chargée de l'entretien, la calibration, les contrôles et la gestion des pannes sur différents automates d'analyse. Des analyses médicales des échantillons et de la validation technique des résultats. J'ai également préparé des chimiothérapies, tenu à jour des dossiers aux essais cliniques ou encore testé la qualité microbiologique de l'eau et de médicaments.</p>
                     </div>
                   </li>
 
                   <li className="timeline-item">
                     <div className="timeline-info">
-                      <span>March 23, 2016</span>
+                      <span>Sept 2016 - Jan 2017</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
+                      <p className="title is-6">Etudiante à la Wild Code School</p>
+                      <p>Réalisation de deux projets-clients dans le cadre de ma formation à la Wild Code School. L'un en 6 semaines l'autre en 8 semaines. L'occasion d'appliquer mes connaissances pour le compte d'acteurs locaux.</p>
                     </div>
                   </li>
 
                   <li className="timeline-item">
                     <div className="timeline-info">
-                      <span>April 02, 2016</span>
+                      <span>Fév 2017 - juil 2017</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
-                    </div>
-                  </li>
-
-                  <li className="timeline-item">
-                    <div className="timeline-info">
-                      <span>April 28, 2016</span>
-                    </div>
-                    <div className="timeline-marker"></div>
-                    <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
-                    </div>
-                  </li>
-
-                  <li className="timeline-item">
-                    <div className="timeline-info">
-                      <span>June 28, 2016</span>
-                    </div>
-                    <div className="timeline-marker"></div>
-                    <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
-                    </div>
-                  </li>
-
-                  <li className="timeline-item">
-                    <div className="timeline-info">
-                      <span>July 28, 2016</span>
-                    </div>
-                    <div className="timeline-marker"></div>
-                    <div className="timeline-content">
-                      <p className="timeline-title">Event Title</p>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
+                      <p className="title is-6">Stagiaire chez Filver</p>
+                      <p>Stage de 6 mois dans une agence web, j'ai participé au développement d'une application en interne. J'ai surtout mis en pratique mes connaissances en frontend. J'ai aussi animé des ateliers d'initiation au code pour les enfants de 7 à 11 ans.</p>
                     </div>
                   </li>
 

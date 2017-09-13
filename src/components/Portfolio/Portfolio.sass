@@ -1,6 +1,45 @@
-.tags
-  margin-top: 3em
+.is-multiline
+  .column
+    padding-bottom: 4em
+  &:last-of-type
+    padding-bottom: 0em
 
-article
-  h4
-    margin-top: 1em
+    article
+
+      .tags
+        margin-top: 3em
+      h4
+        margin-top: 1em
+
+      .image
+
+        .img-lg
+          width: 72%
+          height: 96%
+          top: 4%
+          left: 0
+          z-index: 1
+          right: 0
+
+        .img-tb
+          margin-left: 59%
+          height: 72%
+          width: 30%
+          right: 14%
+          z-index: 2
+          margin-top: 14%
+
+        .img-mb
+          height: 50%
+          width: 15%
+          right: 1rem
+          z-index: 3
+          margin-left: 85%
+          margin-top: 25%
+
+        .img-lg, .img-tb, .img-mb
+          border: 0
+          position: absolute
+          bottom: 0
+          border-radius: 2px
+          box-shadow: 0 5px 10px 0 rgba(0,0,0,.75)

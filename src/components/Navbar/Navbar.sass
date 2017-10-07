@@ -1,11 +1,31 @@
+$white: #fff
+$freshColor: #4abdac
+
+
 .navbar
-    background-color: #383838
-    a:hover
-        color: gray
+  background-color: inherit
 
-.navbar-menu
-    color: #fff
-
-a.navbar-item
-    color: #c1c1c1
+  a.navbar-item
+    color: $white
     padding: 0.5rem 1.75rem
+
+    &:hover
+      border-bottom: 1px solid $white
+      background-color: inherit
+      
+
+@mixin mqMobile
+  @media (max-width: 768px)
+    a.navbar-item
+      &:hover
+        border-bottom: none
+
+    .navbar-burger
+      span
+        background-color: $white
+
+      &:hover
+        background-color: $freshColor
+
+.navbarMb
+  @include mqMobile

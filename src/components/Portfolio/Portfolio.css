@@ -1,36 +1,40 @@
-.is-multiline .column {
-  padding-bottom: 4em; }
-
-.is-multiline:last-of-type {
-  padding-bottom: 0em; }
-  .is-multiline:last-of-type article .tags {
-    margin-top: 3em; }
-  .is-multiline:last-of-type article h4 {
-    margin-top: 1em; }
-  .is-multiline:last-of-type article .image .img-lg {
-    width: 72%;
-    height: 96%;
-    top: 4%;
-    left: 0;
-    z-index: 1;
-    right: 0; }
-  .is-multiline:last-of-type article .image .img-tb {
-    margin-left: 59%;
-    height: 72%;
-    width: 30%;
-    right: 14%;
-    z-index: 2;
-    margin-top: 14%; }
-  .is-multiline:last-of-type article .image .img-mb {
-    height: 50%;
-    width: 15%;
-    right: 1rem;
-    z-index: 3;
-    margin-left: 85%;
-    margin-top: 25%; }
-  .is-multiline:last-of-type article .image .img-lg, .is-multiline:last-of-type article .image .img-tb, .is-multiline:last-of-type article .image .img-mb {
-    border: 0;
-    position: absolute;
-    bottom: 0;
-    border-radius: 2px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75); }
+#portfolio {
+  background: #dfdce3; }
+  #portfolio .is-multiline .column {
+    padding-bottom: 4em; }
+  #portfolio .is-multiline:last-of-type {
+    padding-bottom: 0em; }
+    #portfolio .is-multiline:last-of-type article .tags {
+      margin-top: 3em; }
+      #portfolio .is-multiline:last-of-type article .tags .tag {
+        background-color: #fc4a1a;
+        color: white; }
+    #portfolio .is-multiline:last-of-type article h4 {
+      margin-top: 1em; }
+    #portfolio .is-multiline:last-of-type article .image .img-lg {
+      width: 72%;
+      height: 96%;
+      top: 4%;
+      left: 0;
+      z-index: 1;
+      right: 0; }
+    #portfolio .is-multiline:last-of-type article .image .img-tb {
+      margin-left: 59%;
+      height: 72%;
+      width: 30%;
+      right: 14%;
+      z-index: 2;
+      margin-top: 14%; }
+    #portfolio .is-multiline:last-of-type article .image .img-mb {
+      height: 50%;
+      width: 15%;
+      right: 1rem;
+      z-index: 3;
+      margin-left: 85%;
+      margin-top: 25%; }
+    #portfolio .is-multiline:last-of-type article .image .img-lg, #portfolio .is-multiline:last-of-type article .image .img-tb, #portfolio .is-multiline:last-of-type article .image .img-mb {
+      border: 0;
+      position: absolute;
+      bottom: 0;
+      border-radius: 2px;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75); }

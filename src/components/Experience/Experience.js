@@ -6,10 +6,10 @@ class Experience extends Component {
     let shortResume = 'J\'ai travaillé 10 ans en tant que technicienne de laboratoire, aussi bien dans les hôpitaux qu\'en laboratoire privé ou dans l\'industrie pharmaceutique. Aujourd\'hui, je souhaite devenir une développeuse web accomplie en réalisant un maximum d\'applications.';
 
     return (
-      <section id="experience" className="hero is-warning is-large">
+      <section id="experience" className="hero">
 
         <div className="container">
-          <div className="notification is-primary has-text-centered">
+          <div className="notification has-text-centered">
             <h3 className="title is-3">Expérience</h3>
             <p>{ shortResume }</p>
           </div>

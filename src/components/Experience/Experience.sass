@@ -1,3 +1,10 @@
+$vermillionColor: #fc4a1a
+$cleanColor: #dfdce3
+$sunshineColor: #f7b733
+
+#experience
+  background-color: $sunshineColor
+
 h2, h3
     color: #3d4351
     margin-top: 0
@@ -44,7 +51,7 @@ h2, h3
             width: 15px
             &:before
                 content: ''
-                background: #FF6B6B
+                background: $vermillionColor
                 border: 3px solid transparent
                 border-radius: 100%
                 display: block
@@ -56,7 +63,7 @@ h2, h3
             &:after
                 content: ''
                 width: 3px
-                background: #ccd5db
+                background: $cleanColor
                 top: 24px
                 bottom: 0
                 left: 6px
@@ -64,7 +71,7 @@ h2, h3
                 position: absolute
 
 @mixin mq-tablet
-    @media (min-width: 768px)
+    @media (min-width: 769px)
         .timeline
             display: table
         .timeline-item
@@ -83,7 +90,7 @@ h2, h3
                 position: relative
 
 @mixin mq-computer
-    @media (min-width: 992px)
+    @media (min-width: 1008px)
         .timeline-item, .timeline-info, .timeline-marker, .timeline-content
             display: block
             margin: 0

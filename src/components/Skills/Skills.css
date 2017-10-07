@@ -1,56 +1,65 @@
-.hexGrid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  margin: 0 auto;
-  list-style-type: none; }
-  .hexGrid .hex {
-    position: relative;
-    visibility: hidden;
-    outline: 1px solid transparent; }
-    .hexGrid .hex:after {
-      content: '';
-      display: block;
-      padding-bottom: 86.602%; }
-    .hexGrid .hex .hexIn {
-      position: absolute;
-      width: 96%;
-      padding-bottom: 110.851%;
-      overflow: hidden;
-      visibility: hidden;
-      margin: 0 2%;
-      outline: 1px solid transparent;
-      -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
-        -webkit-transform--ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
-          -webkit-transform--ms-transform-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg); }
-      .hexGrid .hex .hexIn .hexLink {
-        display: block;
-        width: 100%;
-        height: 100%;
-        background-color: #FFDD57;
-        text-align: center;
-        overflow: hidden;
-        -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
-          -webkit-transform--ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
-            -webkit-transform--ms-transform-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg); }
-        .hexGrid .hex .hexIn .hexLink p {
-          width: 100%;
-          top: 35%;
-          z-index: 1; }
-          .hexGrid .hex .hexIn .hexLink p:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 20%;
-            width: 60%;
+#skills {
+  background-color: #4abdac; }
+  #skills h3 {
+    color: #fff; }
+  #skills h4 {
+    color: rgba(255, 255, 255, 0.9); }
+  #skills .notification {
+    border: 1px solid #dfdce3;
+    background-color: inherit;
+    color: #fff; }
+    #skills .notification .hexGrid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      margin: 0 auto;
+      list-style-type: none; }
+      #skills .notification .hexGrid .hex {
+        position: relative;
+        visibility: hidden;
+        outline: 1px solid transparent; }
+        #skills .notification .hexGrid .hex:after {
+          content: '';
+          display: block;
+          padding-bottom: 86.602%; }
+        #skills .notification .hexGrid .hex .hexIn {
+          position: absolute;
+          width: 96%;
+          padding-bottom: 110.851%;
+          overflow: hidden;
+          visibility: hidden;
+          margin: 0 2%;
+          outline: 1px solid transparent;
+          -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+            -webkit-transform--ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+              -webkit-transform--ms-transform-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg); }
+          #skills .notification .hexGrid .hex .hexIn .hexLink {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #fc4a1a;
             text-align: center;
-            border-bottom: 1px solid #fff; }
-    .hexGrid .hex .hexIn * {
-      position: absolute;
-      visibility: visible;
-      outline: 1px solid transparent; }
+            overflow: hidden;
+            -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+              -webkit-transform--ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+                -webkit-transform--ms-transform-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg); }
+            #skills .notification .hexGrid .hex .hexIn .hexLink p {
+              width: 100%;
+              top: 35%;
+              z-index: 1; }
+              #skills .notification .hexGrid .hex .hexIn .hexLink p:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 20%;
+                width: 60%;
+                text-align: center; }
+        #skills .notification .hexGrid .hex .hexIn * {
+          position: absolute;
+          visibility: visible;
+          outline: 1px solid transparent; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .hexResponsive .hexGrid {
     padding-bottom: 7%; }
     .hexResponsive .hexGrid .hex {
@@ -58,7 +67,7 @@
       .hexResponsive .hexGrid .hex:nth-child(3n+3) {
         margin-left: 25%; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1008px) {
   .hexResponsive .hexGrid {
     padding-bottom: 3.4%; }
     .hexResponsive .hexGrid .hex {

@@ -66,15 +66,15 @@ class Contact extends Component {
     let hook = 'Je suis à la recherche d\'un CDD/CDI, idéalement près de Bourges. Des questions ? Envie de me recruter ? Prenez le temps de m\'écrire un message.'
 
     return (
-      <section id="contact" className="hero is-fullheight is-info is-bold">
+      <section id="contact" className="hero is-fullheight is-bold">
 
         <div className="container">
-          <div className="notification is-warning has-text-centered">
+          <div className="notification has-text-centered">
             <h3 className="title is-3">Contactez-moi!</h3>
             <p>{ hook }</p>
           </div>
 
-          <div className="notification is-warning">
+          <div className="notification formBorder">
             <form className="columns" action="https://formspree.io/morin.gaelle@gmail.com" method="POST">
 
               <div className="column is-half is-offset-one-quarter">
@@ -112,7 +112,7 @@ class Contact extends Component {
 
                 <div className="field is-grouped is-grouped-centered">
                   <div className="control">
-                    <button className="button is-primary" type="submit" name="submit" disabled={!this.state.formValid}>
+                    <button className="button" type="submit" name="submit" disabled={!this.state.formValid}>
                       <span className="icon">
                         <i className="fa fa-paper-plane" aria-hidden="true"></i>
                       </span>

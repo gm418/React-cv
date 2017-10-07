@@ -21,7 +21,7 @@ class Navbar extends Component {
     let menuActive = this.state.isToggleOn ? 'is-active' : '';
 
     return (
-      <nav className="navbar">
+      <nav className="navbar navbarMb">
 
         <div className="navbar-brand">
           <div className={"navbar-burger "+menuActive} data-target="navMenuExample" onClick={this.handleClick}>

@@ -1,0 +1,11 @@
+#contact {
+  background-color: #fc4a1a;
+  color: #fff; }
+  #contact .notification {
+    background-color: #fc4a1a; }
+  #contact .formBorder {
+    border: 1px solid #fff; }
+    #contact .formBorder button {
+      background-color: #4abdac;
+      color: #fff;
+      border: 1px solid #4abdac; }

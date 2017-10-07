@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="App">
-            <footer className="footer">
+            <footer id="footer" className="footer">
                 <div className="container">
                     <div className="content has-text-centered">
                         <p>

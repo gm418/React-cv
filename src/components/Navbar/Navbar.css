@@ -1,11 +1,16 @@
 .navbar {
-  background-color: #383838; }
-  .navbar a:hover {
-    color: gray; }
+  background-color: inherit; }
+  .navbar a.navbar-item {
+    color: #fff;
+    padding: 0.5rem 1.75rem; }
+    .navbar a.navbar-item:hover {
+      border-bottom: 1px solid #fff;
+      background-color: inherit; }
 
-.navbar-menu {
-  color: #fff; }
-
-a.navbar-item {
-  color: #c1c1c1;
-  padding: 0.5rem 1.75rem; }
+@media (max-width: 768px) {
+  .navbarMb a.navbar-item:hover {
+    border-bottom: none; }
+  .navbarMb .navbar-burger span {
+    background-color: #fff; }
+  .navbarMb .navbar-burger:hover {
+    background-color: #4abdac; } }

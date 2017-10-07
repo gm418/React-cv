@@ -7,6 +7,7 @@ import MamMb from './mam-mb.jpg';
 import MamTb from './mam-tb.jpg';
 import BijLg from './bij-lg.jpg';
 import BijWebTb from './bijweb-tb.jpg';
+import PortfolioLG from './portfolio-lg.jpg';
 import './Portfolio.css';
 
 class Portfolio extends Component {
@@ -14,7 +15,7 @@ class Portfolio extends Component {
   render() {
 
     return (
-      <section id="portfolio" className="hero is-primary">
+      <section id="portfolio" className="hero">
         <div className="hero-body">
 
           <div className="container">
@@ -67,7 +68,7 @@ class Portfolio extends Component {
               <div className="column is-three-quarters">
                 <article className="container">
                   <figure className="image is-2by1">
-                      <img className="img-lg" src={Website} alt=""></img>
+                      <img className="img-lg" src={PortfolioLG} alt=""></img>
                       <img className="img-tb" src={WebsiteTablet} alt=""></img>
                       <img className="img-mb" src={WebsiteMobile} alt=""></img>
                   </figure>

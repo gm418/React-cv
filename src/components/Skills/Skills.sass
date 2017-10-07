@@ -1,69 +1,87 @@
-.hexGrid
-  display: flex
-  flex-wrap: wrap
-  width: 50%
-  margin: 0 auto
-  list-style-type: none
+$freshColor: #4abdac
+$vermillionColor: #fc4a1a
+$cleanColor: #dfdce3
+$white: #fff
 
-  .hex
-    position: relative
-    visibility: hidden
-    outline: 1px solid transparent
-    &:after
-      content: ''
-      display: block
-      padding-bottom: 86.602%
+#skills
+  background-color: $freshColor
 
-    .hexIn
-      position: absolute
-      width: 96%
-      padding-bottom: 110.851%
-      overflow: hidden
-      visibility: hidden
-      margin: 0 2%
-      outline: 1px solid transparent
+  h3
+    color: $white
 
-      -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
-          -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
-              transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+  h4
+    color: hsla(0,0%,100%,.9)
+
+  .notification
+    border: 1px solid $cleanColor
+    background-color: inherit
+    color: $white
+
+    .hexGrid
+      display: flex
+      flex-wrap: wrap
+      width: 50%
+      margin: 0 auto
+      list-style-type: none
+
+      .hex
+        position: relative
+        visibility: hidden
+        outline: 1px solid transparent
+        &:after
+          content: ''
+          display: block
+          padding-bottom: 86.602%
+
+        .hexIn
+          position: absolute
+          width: 96%
+          padding-bottom: 110.851%
+          overflow: hidden
+          visibility: hidden
+          margin: 0 2%
+          outline: 1px solid transparent
+
+          -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+              -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg)
+                  transform: rotate3d(0,0,1,-60deg) skewY(30deg)
 
 
-      .hexLink
-        display: block
-        width: 100%
-        height: 100%
-        background-color: #FFDD57
-        text-align: center
-        overflow: hidden
-        -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
-            -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
-                transform: skewY(-30deg) rotate3d(0,0,1,60deg)
-
-
-
-        p
-          width: 100%
-          top: 35%
-          z-index: 1
-          &:after
-            content: ''
-            position: absolute
-            bottom: 0
-            left: 20%
-            width: 60%
+          .hexLink
+            display: block
+            width: 100%
+            height: 100%
+            background-color: $vermillionColor
             text-align: center
-            border-bottom: 1px solid #fff
+            overflow: hidden
+            -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
+                -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg)
+                    transform: skewY(-30deg) rotate3d(0,0,1,60deg)
 
 
-    .hexIn *
-      position: absolute
-      visibility: visible
-      outline: 1px solid transparent
+
+            p
+              width: 100%
+              top: 35%
+              z-index: 1
+              &:after
+                content: ''
+                position: absolute
+                bottom: 0
+                left: 20%
+                width: 60%
+                text-align: center
+
+
+        .hexIn *
+          position: absolute
+          visibility: visible
+          outline: 1px solid transparent
 
 
 
 @mixin mqComputer
-  @media (min-width:768px)
+  @media (min-width:1008px)
     // 3-2 hexagons per row
     .hexGrid
       padding-bottom: 3.4%
@@ -75,7 +93,7 @@
 
 
 @mixin mqMobile
-  @media (max-width: 767px)
+  @media (max-width: 768px)
     // 2-1 hexagons per row
     .hexGrid
       padding-bottom: 7%

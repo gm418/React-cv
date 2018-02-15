@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import GaelleMorin from './GaelleMorin.jpg';
+import GaelleMorin from './images/GaelleMorin.jpg';
 import './About.css';
 
 class About extends Component {
@@ -14,14 +14,10 @@ class About extends Component {
                 <h3 className="title is-3 is-spaced">
                   Moi, c'est Gaëlle
                 </h3>
-                <p className="subtitle">
-                  Jeune développeuse web, j'ai à coeur de produire le code le plus propre et le plus simple possible.
-                </p>
                 <p>
-                  De formation biomédicale, j'ai choisi de suivre une reconversion professionnelle à la <a href="https://wildcodeschool.fr/">Wild Code School</a>.<br></br>
-                  Je me suis spécialisée en JavaScript car il est présent côté serveur et côté client et il évolue vite.<br></br>
-                  Ce que j'aime dans ce métier, c'est que je suis encouragée à m'autoformer et à partager avec les autres. J'aime cette sensation de construire quelque chose et j'ai plein de domaines à explorer.<br></br>
-                  Quand je ne code pas, je suis en train de lire, de cuisiner ou de jouer aux jeux vidéos.<br></br>
+                  Après plusieurs années à exercer dans le biomédical, j'ai décidé de me reconvertir dans le développement web.<br></br>
+                  J'ai choisi la <a href="https://wildcodeschool.fr/">Wild Code School</a> et sa pédagogie par projets.<br></br>
+                  Là, je me suis spécialisée en JavaScript car il est présent côté client et côté serveur et en constante évolution. Parfait pour ma soif d'apprendre !<br></br>
                   Si vous voulez en savoir plus, baladez-vous sur ce portfolio ou visitez ma page <a href="https://www.linkedin.com/in/gaelle-morin/">Linkedin</a>.
                 </p>
               </article>

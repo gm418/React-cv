@@ -1,12 +1,20 @@
 {
-  "main.css": "static/css/main.f38e5593.css",
-  "main.css.map": "static/css/main.f38e5593.css.map",
-  "main.js": "static/js/main.2806a376.js",
-  "main.js.map": "static/js/main.2806a376.js.map",
-  "static/media/GaelleMorin.jpg": "static/media/GaelleMorin.e8530b9d.jpg",
+  "main.css": "static/css/main.ffcf6ac5.css",
+  "main.css.map": "static/css/main.ffcf6ac5.css.map",
+  "main.js": "static/js/main.cd046906.js",
+  "main.js.map": "static/js/main.cd046906.js.map",
+  "static/media/GaelleMorin.jpg": "static/media/GaelleMorin.eaf3db77.jpg",
+  "static/media/bij-lg.jpg": "static/media/bij-lg.3e9b72eb.jpg",
+  "static/media/bijweb-tb.jpg": "static/media/bijweb-tb.7dc9d624.jpg",
   "static/media/fontawesome-webfont.eot?v=4.7.0": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/mam-lg.jpg": "static/media/mam-lg.5d833c3f.jpg",
+  "static/media/mam-mb.jpg": "static/media/mam-mb.8def45e0.jpg",
+  "static/media/mam-tb.jpg": "static/media/mam-tb.8bf72f79.jpg",
+  "static/media/portfolio-lg.jpg": "static/media/portfolio-lg.c978cd78.jpg",
+  "static/media/portfolio-mb.jpg": "static/media/portfolio-mb.017bcec7.jpg",
+  "static/media/portfolio-tb.jpg": "static/media/portfolio-tb.afa3cb26.jpg"
 }

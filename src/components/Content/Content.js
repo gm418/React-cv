@@ -11,7 +11,7 @@ class Content extends Component {
                 Gaëlle Morin
               </h1>
               <h2 className="subtitle is-2">
-                Développeuse freelance JavaScript/Rails et WordPress
+                Développeuse freelance JavaScript/Rails
               </h2>
               <a className="btn" href="#contact">
                 Hire me

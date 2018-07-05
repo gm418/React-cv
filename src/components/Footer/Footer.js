@@ -19,7 +19,7 @@ const Footer = () => {
                             </a>
                         </p>
                         <p>
-                            © Gaëlle Morin 2017
+                            © Gaëlle Morin 2018
                         </p>
                     </div>
                 </div>

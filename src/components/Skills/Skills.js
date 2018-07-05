@@ -43,7 +43,7 @@ class Skills extends Component {
                     <li className="hex">
                       <div className="hexIn">
                         <span className="hexLink">
-                          <p>AngularJS</p>
+                          <p>Rails</p>
                         </span>
                       </div>
                     </li>
@@ -77,7 +77,7 @@ class Skills extends Component {
                   <li>
                     <span className="icon">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
-                    </span>Atom
+                    </span>VS Code
                   </li>
                   <li>
                     <span className="icon">
@@ -93,11 +93,6 @@ class Skills extends Component {
                     <span className="icon">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </span>Scrum/Kanban
-                  </li>
-                  <li>
-                    <span className="icon">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                    </span>Electron
                   </li>
                 </ul>
               </div>

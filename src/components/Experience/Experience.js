@@ -61,7 +61,7 @@ class Experience extends Component {
                     <div className = "timeline-marker" ></div>
                     <div className = "timeline-content" >
                       <p className="title is-6">Développeuse Rails freelance</p>
-                      <p>Chez Hexagonal Consulting, développement d'une application permettant de s'inscrire à des évènements et de noter les participants.<br></br>
+                      <p>Chez Hexagonal Consulting, développement d'une application avec une interface admnistrateur et permettant de s'inscrire à des évènements, de noter les participants et de récupérer les notes dans un tableau à double entrées.<br></br>
                       Pour l'application jrnal, participation à la création du tableau de bord des administrateurs, à l'invitation d'utilisateurs et à la gestion des statuts d'un article.</p>
                     </div>
                   </li>

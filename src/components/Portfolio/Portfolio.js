@@ -7,6 +7,8 @@ import BijWebTb from './images/bijweb-tb.jpg';
 import PortfolioLG from './images/portfolio-lg.jpg';
 import PortfolioTb from './images/portfolio-tb.jpg';
 import PortfolioMb from './images/portfolio-mb.jpg';
+import HexaLg from './images/hexa-lg.jpg';
+import HexaTb from './images/hexa-tb.jpg';
 import './Portfolio.css';
 
 class Portfolio extends Component {
@@ -77,6 +79,25 @@ class Portfolio extends Component {
                     <span className="tag">ReactJS</span>
                     <span className="tag">JavaScript</span>
                     <span className="tag">Bulma</span>
+                  </div>
+                </article>
+              </div>
+              <div className = "column is-three-quarters" >
+                <article className="container">
+                  <figure className="image is-2by1">
+                    <img className="img-lg" src={HexaLg} alt =""></img>
+                    <img className="img-tb" src={HexaTb} alt=""></img>
+                  </figure>
+                  <h4 className="subtitle is-5">Rate Me</h4>
+                  <p>Cette application permet aux utilisateurs, via un mail envoyé par l'administrateur, de se connecter via leur compte Google.
+                    Ils peuvent ensuite créer un évènement et voir les évènements passés et ceux auxquels ils peuvent s' inscrire grâce à un code couleur.
+                    Après la fin de l'évènement, les participants peuvent se noter entre eux et ajouter un commentaire. Chaque note est symbolisée par une couleur.</p>
+                  <div className="tags">
+                    <span className="tag">Ruby on Rails</span>
+                    <span className="tag">JavaScript</span>
+                    <span className="tag">Bootstrap</span>
+                    <span className="tag">AWS-sdk</span>
+                    <span className="tag">Google API</span>
                   </div>
                 </article>
               </div>

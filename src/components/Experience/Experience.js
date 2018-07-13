@@ -56,7 +56,7 @@ class Experience extends Component {
 
                   <li className = "timeline-item" >
                     <div className="timeline-info">
-                      <span>Fév 2018 - juin 2018</span>
+                      <span>Fév 2018 - aujourd'hui</span>
                     </div>
                     <div className = "timeline-marker" ></div>
                     <div className = "timeline-content" >

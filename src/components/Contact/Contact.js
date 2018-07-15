@@ -63,7 +63,7 @@ class Contact extends Component {
   }
 
   render() {
-    let hook = 'Je suis à la recherche d\'un CDD/CDI, idéalement près de Bourges. Des questions ? Envie de me recruter ? Prenez le temps de m\'écrire un message.'
+    let hook = 'Je suis disponible pour du travail à distance ou un CDD/CDI idéalement près de Bourges. Des questions ? Envie de me recruter ? Prenez le temps de m\'écrire un message.'
 
     return (
       <section id="contact" className="hero is-fullheight is-bold">

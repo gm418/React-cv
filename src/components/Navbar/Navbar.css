@@ -1,5 +1,7 @@
 .navbar {
   background-color: inherit; }
+  .navbar span {
+    color: #fff; }
   .navbar a.navbar-item {
     color: #fff;
     padding: 0.5rem 1.75rem; }
@@ -10,7 +12,5 @@
 @media (max-width: 768px) {
   .navbarMb a.navbar-item:hover {
     border-bottom: none; }
-  .navbarMb .navbar-burger span {
-    background-color: #fff; }
-  .navbarMb .navbar-burger:hover {
+  .navbarMb a.navbar-item:hover {
     background-color: #4abdac; } }

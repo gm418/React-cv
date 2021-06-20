@@ -4353,6 +4353,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     align-items: center;
     display: flex; }
   .navbar-menu {
+    background-color: white;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {

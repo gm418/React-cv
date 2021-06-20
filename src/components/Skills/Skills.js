@@ -50,13 +50,6 @@ class Skills extends Component {
                     <li className="hex">
                       <div className="hexIn">
                         <span className="hexLink">
-                          <p>ReactJS</p>
-                        </span>
-                      </div>
-                    </li>
-                    <li className="hex">
-                      <div className="hexIn">
-                        <span className="hexLink">
                           <p>Sass</p>
                         </span>
                       </div>
@@ -72,7 +65,7 @@ class Skills extends Component {
                   <li>
                     <span className="icon">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
-                    </span>Git/Github
+                    </span>Git
                   </li>
                   <li>
                     <span className="icon">

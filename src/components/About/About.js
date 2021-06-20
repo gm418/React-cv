@@ -18,7 +18,7 @@ class About extends Component {
                   Après plusieurs années à exercer dans le biomédical, j'ai décidé de me reconvertir dans le développement web.<br></br>
                   J'ai choisi la <a href="https://wildcodeschool.fr/">Wild Code School</a> et sa pédagogie par projets.<br></br>
                   Là, je me suis spécialisée en JavaScript car il est présent côté client et côté serveur et en constante évolution.<br></br>
-                  Depuis, j'ai réalisé des projets avec Angular 1.5 et Ruby on  Rails. Je me forme actuellement sur React et WordPress.<br></br>
+                  Depuis, j'ai réalisé des projets avec Angular 1.5 et Ruby on  Rails. Je me forme actuellement WordPress et je m'occupe de l'intégration de l'application Orbit développée par <a href="https://startinblox.com/fr/">Startin'blox</a>.<br></br>
                   Si vous voulez en savoir plus, baladez-vous sur ce portfolio ou visitez ma page <a href="https://www.linkedin.com/in/gaelle-morin/">Linkedin</a>.
                 </p>
               </article>

@@ -10,7 +10,7 @@ class Experience extends Component {
 
         <div className="container">
           <div className="notification has-text-centered">
-            <h3 className="title is-3">Expérience</h3>
+            <h3 className="title is-3">Expériences</h3>
             <p>{ shortResume }</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ class Experience extends Component {
 
                   <li className="timeline-item">
                     <div className="timeline-info">
-                      <span>Sept 2016 - Jan 2017</span>
+                      <span>Sept 2016 - jan 2017</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
@@ -56,13 +56,38 @@ class Experience extends Component {
 
                   <li className = "timeline-item" >
                     <div className="timeline-info">
-                      <span>Fév 2018 - aujourd'hui</span>
+                      <span>Fév 2018 - juin 2018</span>
                     </div>
                     <div className = "timeline-marker" ></div>
                     <div className = "timeline-content" >
                       <p className="title is-6">Développeuse Rails freelance</p>
                       <p>Chez Hexagonal Consulting, développement d'une application avec une interface admnistrateur et permettant de s'inscrire à des évènements, de noter les participants et de récupérer les notes dans un tableau à double entrées.<br></br>
                       Pour l'application jrnal, participation à la création du tableau de bord des administrateurs, à l'invitation d'utilisateurs et à la gestion des statuts d'un article.</p>
+                    </div>
+                  </li>
+
+                  <li className = "timeline-item" >
+                    <div className="timeline-info">
+                      <span>Sep 2018 - oct 2018</span>
+                    </div>
+                    <div className = "timeline-marker" ></div>
+                    <div className = "timeline-content" >
+                      <p className="title is-6">Intégratrice WordPress freelance</p>
+                      <p>Accompagnée par un développeur senior, j'ai été chargée d'intégrer les pages d'un WordPress pour une agence de motion design.</p>
+                    </div>
+                  </li>
+
+                  <li className = "timeline-item" >
+                    <div className="timeline-info">
+                      <span>Déc 2018 - aujourd'hui</span>
+                    </div>
+                    <div className = "timeline-marker" ></div>
+                    <div className = "timeline-content" >
+                      <p className="title is-6">Intégratrice freelance pour Startin'blox</p>
+                      <p>Développement d'une application pour faciliter le travail entre freelances, associations, etc.
+                        J'ai intégré les maquettes fournies par la graphiste et affiché des données dynamiques.
+                        La structure HTML est générée par Startin'blox et j'utilise les composants développés par l'équipe de développeurs pour les adapter graphiquement.
+                      </p>
                     </div>
                   </li>
 

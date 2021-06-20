@@ -70,7 +70,7 @@ class Contact extends Component {
 
         <div className="container">
           <div className="notification has-text-centered">
-            <h3 className="title is-3">Contactez-moi!</h3>
+            <h3 className="title is-3">Contactez-moi !</h3>
             <p>{ hook }</p>
           </div>
 

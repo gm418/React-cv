@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.542532a0.css",
   "main.css.map": "static/css/main.542532a0.css.map",
-  "main.js": "static/js/main.8009fe72.js",
-  "main.js.map": "static/js/main.8009fe72.js.map",
+  "main.js": "static/js/main.5f7abac1.js",
+  "main.js.map": "static/js/main.5f7abac1.js.map",
   "static/media/GaelleMorin.jpg": "static/media/GaelleMorin.eaf3db77.jpg",
   "static/media/bij-lg.jpg": "static/media/bij-lg.3e9b72eb.jpg",
   "static/media/bijweb-tb.jpg": "static/media/bijweb-tb.7dc9d624.jpg",
@@ -16,6 +16,9 @@
   "static/media/mam-lg.jpg": "static/media/mam-lg.5d833c3f.jpg",
   "static/media/mam-mb.jpg": "static/media/mam-mb.8def45e0.jpg",
   "static/media/mam-tb.jpg": "static/media/mam-tb.8bf72f79.jpg",
+  "static/media/orbit-lg.jpg": "static/media/orbit-lg.d970a3c6.jpg",
+  "static/media/orbit-mb.jpg": "static/media/orbit-mb.764a279c.jpg",
+  "static/media/orbit-tb.jpg": "static/media/orbit-tb.43fdd037.jpg",
   "static/media/portfolio-lg.jpg": "static/media/portfolio-lg.c978cd78.jpg",
   "static/media/portfolio-mb.jpg": "static/media/portfolio-mb.017bcec7.jpg",
   "static/media/portfolio-tb.jpg": "static/media/portfolio-tb.afa3cb26.jpg"

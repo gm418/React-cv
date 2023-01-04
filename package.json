@@ -7,7 +7,7 @@
     "font-awesome": "^4.7.0",
     "react": "^15.7.0",
     "react-dom": "^15.7.0",
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
